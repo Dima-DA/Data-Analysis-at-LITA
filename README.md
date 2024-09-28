@@ -13,5 +13,7 @@ SQL views are virtual tables that simplify complex queries, gives you the flexib
 ### Tools Used
 SQL [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 ### Query used to create SQL veiw
-CREATE VIEW vemployee AS
-SELECT employee.staffid FROM employee
+```SQL CREATE VIEW vemployee AS
+SELECT employee.staffid FROM employee```
+
+
