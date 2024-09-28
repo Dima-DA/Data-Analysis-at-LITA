@@ -18,5 +18,9 @@ SQL [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downlo
 CREATE VIEW vemployee AS
 SELECT employee.staffid FROM employee```
 
+vemployee- is the name of the view I want to create
+employee.staffid is a column on employee table already created
+
+
 
 
