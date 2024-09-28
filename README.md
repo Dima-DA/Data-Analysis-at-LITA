@@ -1,6 +1,13 @@
 # LITA-Class-Documentation
 ### Project Title: SQL Veiws
 ---
+[Project Overview](#project-overview)
+
+[Tools Used](#tools-used)
+
+[Query used](#query-used)
+
+### Project Overview
 SQL views are virtual tables that simplify complex queries, gives you the flexibility to include only the details you want to share.
 -  Customization: You can add and remove columns easily : just select the view created, right click, select design.
 -  Visual Appeal: The connecting lines and dynamic movement are oddly satisfying.
@@ -13,7 +20,7 @@ SQL views are virtual tables that simplify complex queries, gives you the flexib
 
 ### Tools Used
 SQL [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
-### Query used to create SQL veiw
+### Query used
 ```sql
 CREATE VIEW vemployee AS
 SELECT employee.staffid FROM employee```
