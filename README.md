@@ -21,6 +21,39 @@ VALUES ('BROWNBEANS', 10, 20,2000, '2024-12-10'),('HONEYBEANS', 20, 10, 4000, '2
 
 SELECT * FROM DIMAPRODUCTS
 ```
+### Importing File intO SQL
+.Select the Database you want to bring in the data, right click 
+
+
+..to go TASK
+
+
+...From the dropbox select - IMPORT FLAT FILE (FOR CSV), select IMPORT FILE (FOR EXCEL FILE)
+
+
+....On the INTRODUCTION PAGE.. maximise your screen to see NEXT
+
+
+.....click NEXT
+
+
+....... BROWSE TO SELECT THE PLACE THE FILE WAS SAVED (Downloads, Desktop..)
+
+
+...........NEXT 
+
+
+............NEXT
+
+
+.............If the last page shows error, click on the error mesage, read, click on previous to effect corrections
+		(the error is usually from incorrect datatype)
+
+  
+................If completed, sucessful, close.
+
+
+..................Go to your SQL database, refresh to see it.
 
 ## Project Title: SQL Veiws
 ---
@@ -95,19 +128,6 @@ else 'nothere'
 end
 ```
 
-### Importing File intO SQL
-.Select the Database you want to bring in the data, right click 
-..to go TASK
-...From the dropbox select - IMPORT FLAT FILE (FOR CSV), select IMPORT FILE (FOR EXCEL FILE)
-....On the INTRODUCTION PAGE.. maximise your screen to see NEXT
-.....click NEXT
-....... BROWSE TO SELECT THE PLACE THE FILE WAS SAVED (Downloads, Desktop..)
-...........NEXT 
-............NEXT
-.............If the last page shows error, click on the error mesage, read, click on previous to effect corrections
-		(the error is usually from incorrect datatype)
-................If completed, sucessful, close.
-..................Go to your SQL database, refresh to see it.
 
 
 
