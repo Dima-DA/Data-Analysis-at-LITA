@@ -42,6 +42,7 @@ Goal:To categorise staff based on age. I want to see the Age and LastNames colum
 60 = senior Executive; 59-50 = Executive; 45 - 40 = Manager;39 - 20 = Assistant Manager.
 
 *CODE*
+
 Note: between 59 and 50, will retun an error, so, the higher value should always come last- Between 50 and 59 is the correct line.
 
 ````SQL
@@ -69,7 +70,21 @@ case
 	when staffid= 'AB298'then 'Edo'
 	when staffid= 'AB260' then 'Imo'
 else 'nothere'
-end ```
+end
+```
+### Importing File intO SQL
+.Select the Database you want to bring in the data, right click 
+..to go TASK
+...From the dropbox select - IMPORT FLAT FILE (FOR CSV), select IMPORT FILE (FOR EXCEL FILE)
+....On the INTRODUCTION PAGE.. maximise your screen to see NEXT
+.....click NEXT
+....... BROWSE TO SELECT THE PLACE THE FILE WAS SAVED (Downloads, Desktop..)
+...........NEXT 
+............NEXT
+.............If the last page shows error, click on the error mesage, read, click on previous to effect corrections
+		(the error is usually from incorrect datatype)
+................If completed, sucessful, close.
+..................Go to your SQL database, refresh to see it.
 
 
 
