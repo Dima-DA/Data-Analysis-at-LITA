@@ -1,4 +1,27 @@
 # LITA-Class-Documentation
+## Creating a Database and inserting values
+---
+```sql
+CREATE Database DIMA_RESOURCE_GLOBAL
+
+CREATE TABLE DIMAPRODUCTS (
+BEANSFLOUR VARCHAR (MAX),
+CARROT_OIL INT,
+COCONUT_OIL INT,
+LEMON_OIL INT,
+PRICELIST MONEY,
+DATEOFPURCHASE varchar (50)
+)
+SELECT * FROM DIMAPRODUCTS
+
+INSERT INTO DIMAPRODUCTS (BEANSFLOUR,CARROT_OIL,LEMON_OIL,PRICELIST, DATEOFPURCHASE) 
+VALUES ('BROWNBEANS', 10, 20,2000, '2024-12-10'),('HONEYBEANS', 20, 10, 4000, '2024-14-10'),
+('WHITEBEANS', 12, 22, 3000,'2024-16-10'),('IRONBEANS', 70, 50, 6000,'2024-17-10'),
+('ALOKABEANS', 75, 60, 300,'2024-18-10'),('BROKENBEANS', 600, 200, 70000,'2024-20-10')
+
+SELECT * FROM DIMAPRODUCTS
+```
+
 ## Project Title: SQL Veiws
 ---
 [Project Overview](#project-overview)
@@ -57,7 +80,6 @@ case
 
 Practise 2: Update the state of origin using CASE WHEN.
 
-```SQL
 UPDATE Salary
 	set state_of_origin=
 case 
@@ -72,6 +94,7 @@ case
 else 'nothere'
 end
 ```
+
 ### Importing File intO SQL
 .Select the Database you want to bring in the data, right click 
 ..to go TASK
